@@ -27,7 +27,7 @@
                         <a href="#" class="nav__link"><img src="img/arrow.svg" alt="Иконка, чтобы узнать больше" class="nav__arrow"></a>
                         <a href="#" class="nav__link">FAQ</a>
                     </nav>
-                    <form action="#"><button class="header__button">Подобрать психолога</button></form>
+                    <button class="header__button">Подобрать психолога</button>
                     <div class="header__burger">
                         <div class="burger__line"></div>
                         <div class="burger__line"></div>
@@ -41,7 +41,7 @@
                 <div class="main-nav">
                     <a  href="#" class="main-nav__link">Главная</a>
                     <img src="img/Vector 60.svg" alt="Иконка, отражающая местонахождение на сайте" class="main-nav__icon">
-                    <a href="#" class="main-nav__link">Блог</a>
+                    <a href="blog.html" target="_blank" class="main-nav__link">Блог</a>
                     <img src="img/Vector 60.svg" alt="Иконка, отражающая местонахождение на сайте" class="main-nav__icon">
                     <a href="#" class="main-nav__link">Как не утонуть в тревоге и управлять своими страхами</a>
                 </div>
@@ -51,32 +51,163 @@
                         <div class="text-article__info">
                             <p class="info__author">Автор: Лиза Файнтух</p>
                             <p class="info__date">21.08.2021</p>
+                            <p class="info__teg">Self</p>
                         </div>
-                        <img src="img/article_main.png" alt="Девушка лежит на воде">
-                        <div class="text-article__content">
+                        <img src="img/article_main.png" alt="Девушка лежит на воде" class="text-article__main-photo">
+                        <section class="text-article__content">
                             <h4 class="content__header">Содержание</h4>
-                            <ul class="content__list">
-                                <li class="content__list-link"><a href="#" class="list-link__link">Как понять, что отношения с мамой были дисфункциональными и привели к травме?</a></li>
-                                <li class="content__list-link"><a href="#" class="list-link__link">Мама привет!</a></li>
-                                    <ul class="link_link-list">
-                                        <li class="content__list-link"><a href="#" class="list-link__link">Под под заголовок под заголовком</a></li>
-                                        <ul class="link_link-list">
-                                            <li class="content__list-link"><a href="#" class="list-link__link">Под под под заголовок под заголовком</a></li>
-                                            <ul class="link_link-list">
-                                                <li class="content__list-link"><a href="#" class="list-link__link">Под под под под заголовок под заголовком</a></li>
+                            <ul class="section__list">
+                                <li class="content__list-link content__list-link_bullet_color"><a href="#h3" class="list-link__link">Как понять, что отношения с мамой были дисфункциональными и привели к травме?</a></li>
+                                <li class="content__list-link content__list-link_bullet_color"><a href="#first-what" class="list-link__link list-link__display_none">Мама привет!</a></li>
+                                    <ul class="section__list">
+                                        <li class="content__list-link"><a href="#" class="list-link__link list-link__display_none">Под под заголовок под заголовком</a></li>
+                                        <ul class="section__list">
+                                            <li class="content__list-link"><a href="#" class="list-link__link list-link__display_none">Под под под заголовок под заголовком</a></li>
+                                            <ul class="section__list">
+                                                <li class="content__list-link"><a href="#" class="list-link__link list-link__display_none">Под под под под заголовок под заголовком</a></li>
                                             </ul>
                                         </ul>
                                     </ul>
-                                <li class="content__list-link"><a href="#" class="list-link__link">Ну вот опять заголовок который как «привет мама»</a></li>
-                                <li class="content__list-link"><a href="#" class="list-link__link">Как понять, что вы страдаете от материнской травмы?</a></li>
+                                <li class="content__list-link content__list-link_bullet_color"><a href="#second-what" class="list-link__link list-link__display_none">Ну вот опять заголовок который как «привет мама»</a></li>
+                                <li class="content__list-link content__list-link_bullet_color"><a href="#" class="list-link__link">Как понять, что вы страдаете от материнской травмы?</a></li>
                             </ul>
-                        </div>
+                        </section>
+                        <section class="text-article_section">
+                            <h3 class="section__header" id="h3">Заголовок h3</h3>
+                            <p class="section__paragraph">Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться со своими эмоциями.  Снять этот процесс с автопилота и перевести его в поле сознания.</p>
+                            <p class="section__paragraph">Давайте, к примеру, разберем тревогу. Можно разложить перед собой целую коллекцию доступных реакций и выбрать нужную:</p>
+                            <div class="section__blockquote">
+                                <img src="img/quote.svg" alt="Кавычки" class="blockquote__quotation-marks">
+                                <blockquote class="blockquote">
+                                    <p class="blockquote__text">Мы знаем, что нуждаться в помощи и поддержке в трудные периоды жизни абсолютно нормально для любого человека, и стремимся сделать психотерапию безопасной, удобной и доступной каждому</p>
+                                    <cite class="blockquote__author">Ана Крымская</cite>
+                                </blockquote>
+                            </div>
+                        </section>
+                        <section class="text-article_section">
+                            <h3 class="section__header" id="first-what">Что еще можно делать с тревогой?</h3>
+                            <ul class="section__list">
+                                <li class="content__list-link_bullet_color section__link">Управлять ей через что-то внешнее: включать музыку, которая создает другое настроение, сесть за работу с цифрами, которая быстренько активизирует другие участки мозга, читать блоги, которые вас успокаивают и отвлекают.</li>
+                                <li class="content__list-link_bullet_color section__link">А еще порой можно разрешить себе тревогу заесть чем-то вкусным. Это, конечно, не самая здоровая стратегия, но в ряде ситуаций можно считать ее вполне рабочей. Особенно, когда внутренний ресурс на нуле, а поддерживающее окружение не в доступе.</li>
+                            </ul>
+                            <figure class="section__photo-block">
+                                <img src="img/article-photo1.png" alt="Человек толкает прохожего" class="photo-block__photo">
+                                <figcaption class="photo-block__description">Онтогенез речи отражает групповой эриксоновский гипноз.</figcaption>
+                              </figure>
+                              <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</p>
+                              <div class="section__main-moment">
+                                <p class="main-moment__text">Мы знаем, что нуждаться в помощи и поддержке в трудные периоды жизни абсолютно нормально для любого человека, и стремимся сделать психотерапию безопасной, удобной и доступной каждому</p>
+                              </div>
+                              <p class="section__paragraph">Одна из ключевых задач психотерапии как раз и заключается в том, чтобы этот репертуар расширять и обучать человека пользоваться доступными ему реакциями в той последовательности, пропорции и объеме, которые подходят именно ему. Без оглядки на то, "как правильно" или "как у других".</p>
+                              <div class="section__text-with-photo">
+                                <img src="img/article-photo2.png" alt="Женщина в шляпе" class="text-with-photo__photo">
+                                <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.
+                                    <br>А еще порой можно разрешить себе тревогу заесть чем-то вкусным.</p>
+                              </div>
+                              <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</p>
+                              <div class="section__exercise section__exercise_color_yellow">
+                                <h4 class="exercise__header">Упражнение #1</h4>
+                                <p class="exercise__text">Нужно последовательно напрягать и расслаблять каждую мышцу в теле на несколько секунд. Напрягать стоит довольно сильно, чтобы потом отчетливее ощущать расслабляющий эффект. Начать можно с пальцев ног и постепенно подниматься вверх. Смысл в том, чтобы через напряжение дать стрессу выход, а затем вновь привести себя в спокойное состояние через расслабление</p>
+                              </div>
+                        </section>
+                        <section class="text-article_section">
+                            <h3 class="section__header" id="second-what">Что еще можно делать с тревогой?</h3>
+                            <ul class="section__list">
+                                <li class="content__list-link_bullet_color section__link">Управлять ей через что-то внешнее: включать музыку, которая создает другое настроение, сесть за работу с цифрами, которая быстренько активизирует другие участки мозга, читать блоги, которые вас успокаивают и отвлекают.</li>
+                                <li class="content__list-link_bullet_color section__link">А еще порой можно разрешить себе тревогу заесть чем-то вкусным. Это, конечно, не самая здоровая стратегия, но в ряде ситуаций можно считать ее вполне рабочей. Особенно, когда внутренний ресурс на нуле, а поддерживающее окружение не в доступе.</li>
+                            </ul>
+                            <div class="section__text-with-photo">
+                                <img src="img/article-photo3.png" alt="Две сплетенные руки" class="text-with-photo__photo">
+                                <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу.</p>
+                            </div>
+                            <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</p>
+                            <div class="section__exercise section__exercise_color_orange">
+                                <h4 class="exercise__header">Упражнение #2</h4>
+                                <p class="exercise__text">Нужно последовательно напрягать и расслаблять каждую мышцу в теле на несколько секунд. Напрягать стоит довольно сильно, чтобы потом отчетливее ощущать расслабляющий эффект. Начать можно с пальцев ног и постепенно подниматься вверх. Смысл в том, чтобы через напряжение дать стрессу выход, а затем вновь привести себя в спокойное состояние через расслабление</p>
+                            </div>
+                            <div class="section__big-photo-block">
+                                <div class="big-photo-block__column">
+                                    <img src="img/article-photo4.png" alt="Книги с цветочным горшком на стуле" class="column__photo">
+                                    <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</p>
+                                 </div>
+                                <div class="big-photo-block__column">
+                                    <img src="img/article-photo5.png" alt="Девушка стоит на вышке у воды и смотрит на закат" class="column__photo">
+                                    <p class="section__paragraph">Чем шире доступный вам репертуар реакций и чем более осознанно вы можете выбирать из него то, что лучше всего подойдет в каждой конкретной ситуации, тем больше будет ваша устойчивость к стрессу, депрессии, неопределенности, да и к жизни в целом.</p>
+                                </div>
+                            </div>
+                              <img src="img/decor.svg" alt="Элемент декора" class="section__decor">
+                              <p class="section__paragraph">Одна из ключевых задач психотерапии как раз и заключается в том, чтобы этот репертуар расширять и обучать человека пользоваться доступными ему реакциями в той последовательности, пропорции и объеме, которые подходят именно ему. Без оглядки на то, "как правильно" или "как у других".</p>
+                              <div class="section__exercise section__exercise_color_green">
+                                <h4 class="exercise__header">Упражнение #1</h4>
+                                <p class="exercise__text">Нужно последовательно напрягать и расслаблять каждую мышцу в теле на несколько секунд. Напрягать стоит довольно сильно, чтобы потом отчетливее ощущать расслабляющий эффект. Начать можно с пальцев ног и постепенно подниматься вверх. Смысл в том, чтобы через напряжение дать стрессу выход, а затем вновь привести себя в спокойное состояние через расслабление</p>
+                              </div>
+                        </section>
+                        <section class="text-article__tegs">
+                            <a href="#" class="tegs__teg">Self</a>
+                            <a href="#" class="tegs__teg tegs__teg_pseudoelement_round">Самооценка и самопринятие</a>
+                            <a href="#" class="tegs__teg tegs__teg_pseudoelement_round">Самооценка и самопринятие</a>
+                            <a href="#" class="tegs__teg tegs__teg_pseudoelement_round">Упражнения</a>
+                            <a href="#" class="tegs__teg">Чувства и эмоции</a>
+                            <a href="#" class="tegs__teg tegs__teg_pseudoelement_round">Самооценка и самопринятие</a>
+                            <a href="#" class="tegs__teg tegs__teg_pseudoelement_round">Тревога</a>
+                        </section>
                     </article>
-                    <aside>
-
+                    <aside class="aside">
+                        <section class="aside__first-long-card">
+                            <img src="img/aside1.png" alt="Три человека смотрят в телефон" class="first-long-card__vector-image">
+                            <h3 class="first-long-card__header">Загружаем<br> свободные окошки</h3>
+                            <p class="first-long-card__text">Все в порядке, сейчас мы перенаправим вас в сервис записи Qlick, через который удобно выбрать дату,  время встречи и оплатить её</p>
+                            <button class="card__button card__button_size">Подробнее</button>
+                        </section>
+                        <section class="aside__second-long-card">
+                            <img src="img/aside2.png" alt="Фото психолога" class="second-long-card__image">
+                            <div class="second-long-card__ways-of-communication second-long-card__first-way-of-communication">
+                                <img class="ways-of-communication__icon" src="img/aside-icon1.svg" alt="Иконка листа бумаги с карандашом">
+                                <p class="ways-of-communication__way">Переписка</p>
+                            </div>
+                            <div class="second-long-card__ways-of-communication second-long-card__second-way-of-communication">
+                                <img class="ways-of-communication__icon" src="img/aside-icon2.svg" alt="Иконка видеокамеры">
+                                <p class="ways-of-communication__way">Видео</p>
+                            </div>
+                            <h3 class="second-long-card__header">Лилия</h3>
+                            <h4 class="second-long-card__subheader">Психолог</h4>
+                            <div class="second-long-card__info">
+                                <p class="info__datas info__experience">Опыт 6 лет</p>
+                                <p class="info__datas">43 года</p>
+                            </div>
+                            <div class="second-long-card__line"></div>
+                            <h5 class="second-long-card__info-header">С чем работает психолог</h5>
+                            <ul class="second-long-card__info-list">
+                                <li class="info-list__link">Тревога, тревожности</li>
+                                <li class="info-list__link">Подавленность</li>
+                                <li class="info-list__link">Тревога и панические атаки</li>
+                            </ul>
+                            <button class="card__button card__button_size">Подробнее</button>
+                        </section>
+                        <a href="#"><section class="aside__third-card"></section></a>
+                        <section class="aside__fourth-card">
+                            <h3 class="fourth-card__header"><span class="header__main-part">8 </span>Видео сессий</h3>
+                            <p class="fourth-card__text">Проработать небольшие проблемы и продвинуться в решении сложных запросов</p>
+                            <p class="fourth-card__price">18 500 ₽</p>
+                            <button class="card__button fourth-card__button_size fourth-card__button_position">Купить</button>
+                            <img src="img/aside4.png" alt="Подарок" class="fourth-card__first-present">
+                            <img src="img/aside5.png" alt="Подарок" class="fourth-card__second-present">
+                        </section>
                     </aside>
                 </div>
+                <div class="line"></div>
+                <section class="suggestion">
+                    <div class="suggestion__description">
+                        <h2 class="suggestion__header">Откликается проблема?</h2>
+                        <p class="suggestion__text">Поможем подобрать специалиста по работе с подобным запросом</p>
+                        <button class="suggestion__button">Подобрать психолога</button>
+                    </div>
+                    <img src="img/suggestion.svg" alt="Нарисованные девушка и парень, общающиеся между собой" class="suggestion__image">
+                </section>
             </div>
+            <img class="big-round-decor" src="img/big-round.png"></div>
+            <img class="small-round-decor" src="img/small-round.png"></div>
+            <div class="bottom-line"></div>
         </main>
         <footer class="footer">
             <div class="container">
@@ -96,7 +227,6 @@
                         <li><a href="#" class="column-links__link">Контакты</a></li>
                     </ul>
                     <div class="footer-content__form">
-                        
                         <form action="#" class="form">
                             <p class="form__header">Одно письмо в неделю со свежими <br>новостями и акциями</p>
                             <div class="form__inputs">
