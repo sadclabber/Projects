@@ -7,12 +7,15 @@ html, body {
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #fff;
+    background-color: #FFFFFF;
     min-height: 100%;
+    color: #333333;
 }
 
 .container {
-    margin: 0 120px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 header {
@@ -91,6 +94,15 @@ nav a:nth-of-type(6) {
     border-radius: 4px;
 }
 
+.main__gradient {
+    width: 100%;
+    height: 672px;
+    background: linear-gradient(rgba(239, 245, 251, 1) 50%, rgba(239, 245, 251, 0));
+    position: absolute;
+    z-index: -1;
+    top: 400px;
+}
+
 .main-nav {
     margin-top: 16px;
     white-space: nowrap;
@@ -113,7 +125,6 @@ nav a:nth-of-type(6) {
 .blog__header {
     font-size: 48px;
     font-weight: bold;
-    color: #333333;
     margin: 30px 0; 
 }
 
@@ -141,7 +152,6 @@ nav a:nth-of-type(6) {
 
 .sections__button_display_unactive:hover {
     color: #fff;
-    background-color: #333333;
     cursor: pointer;
 }
 
@@ -191,6 +201,7 @@ nav a:nth-of-type(6) {
     border-radius: 16px;
     border: 1px solid #DEDEDE;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 }
 
 .article__section-name {
@@ -229,6 +240,7 @@ nav a:nth-of-type(6) {
     display: flex;
     flex-direction: column;
     height: 100%;
+    
 }
 
 .article__header {
@@ -439,7 +451,7 @@ nav a:nth-of-type(6) {
     margin-bottom: 0px;
     font-size: 48px;
     font-weight: bold;
-    color: #333333;
+
 }
 
 .text-article__info {
@@ -489,7 +501,6 @@ nav a:nth-of-type(6) {
 }
 
 .content__header {
-    color: #333333;
     font-size: 16px;
     font-weight: bold;
 }
@@ -501,7 +512,7 @@ nav a:nth-of-type(6) {
 }
 
 .content__list-link_bullet_color::before {
-    content:'\2022';
+    content:"\2022";
       display: block;
       position: relative;
       max-width: 0px;
@@ -522,14 +533,12 @@ nav a:nth-of-type(6) {
 }
 
 .section__header {
-    color: #333333;
     font-size: 24px;
     font-weight: bold;
 }
 
 .section__paragraph {
     font-size: 16px;
-    color: #333333;
     font-weight: 500;
     line-height: 24px;
 }
@@ -557,11 +566,9 @@ nav a:nth-of-type(6) {
     font-style: italic;
     font-size: 16px;
     line-height: 24px;
-    color: #333333;
 }
 
 .blockquote__author {
-    color: #333333;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -569,7 +576,6 @@ nav a:nth-of-type(6) {
 
 .section__link {
     margin-bottom: 16px;
-    color: #333333;
     font-size: 16px;
     font-weight: 500;
 }
@@ -606,7 +612,6 @@ nav a:nth-of-type(6) {
     display: inline-block;
     width: 485px;
     margin: 24px 102px;
-    color: #333333;
     font-style: italic;
     font-size: 16px;
     line-height: 24px;
@@ -644,14 +649,12 @@ nav a:nth-of-type(6) {
 
 .exercise__header {
     margin: 0;
-    color: #333333;
     font-size: 16px;
     font-weight: bold;
 }
 
 .exercise__text {
     font-size: 16px;
-    color: #333333;
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 0;
@@ -713,7 +716,6 @@ nav a:nth-of-type(6) {
 }
 
 .suggestion__header {
-    color: #333333;
     font-size: 48px;
     font-weight: bold;
     line-height: 56px;
@@ -723,7 +725,6 @@ nav a:nth-of-type(6) {
 
 .suggestion__text {
     max-width: 349px;
-    color: #333333;
     font-size: 18px;
     line-height: 26px;
     margin: 24px 0;
@@ -740,7 +741,8 @@ nav a:nth-of-type(6) {
     font-size: 16px;
     border-radius: 4px;
     font-weight: 600;
-    align-self: center;
+    align-self: flex-start;
+    
 }
 
 .suggestion__button:hover {
@@ -795,7 +797,6 @@ nav a:nth-of-type(6) {
 
 .first-long-card__header {
     text-align: center;
-    color: #333333;
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
@@ -808,7 +809,6 @@ nav a:nth-of-type(6) {
     text-align: center;
     font-size: 14px;
     line-height: 20px;
-    color: #333333;
     width: 234px;
     margin-bottom: 24px;
 }
@@ -874,14 +874,12 @@ nav a:nth-of-type(6) {
 
 .ways-of-communication__way {
     margin-left: 4px;
-    color: #333333;
     font-weight: 500;
     font-size: 12px;
 }
 
 .second-long-card__header {
     text-align: center;
-    color: #333333;
     font-size: 20px;
     font-weight: bold;
     margin: 8px 0;
@@ -889,7 +887,6 @@ nav a:nth-of-type(6) {
 
 .second-long-card__subheader {
     text-align: center;
-    color: #333333;
     font-size: 16px;
     font-weight: 600;
     margin: 0;
@@ -930,7 +927,6 @@ nav a:nth-of-type(6) {
     margin: 0;
     font-size: 16px;
     font-weight: bold;
-    color: #333333;
     margin-top: 8px;
 }
 
@@ -942,11 +938,10 @@ nav a:nth-of-type(6) {
 .info-list__link {
     margin-bottom: 8px;
     font-size: 14px;
-    color: #333333;
 }
 
 .info-list__link::before {
-    content:'\2022';
+    content:"\2022";
       display: block;
       position: relative;
       max-width: 0px;
@@ -1001,7 +996,6 @@ nav a:nth-of-type(6) {
 }
 
 .fourth-card__price {
-    color: #333333;
     font-size: 24px;
     font-weight: bold;
     margin-top: 16px;
@@ -1039,11 +1033,9 @@ nav a:nth-of-type(6) {
     right: 0;
 }
 
-
-
 @media (min-width: 1020px) and (max-width: 1230px) {
     .container {
-        margin: 0 32px;
+        width: 960px;
     }
 
     .nav__link {
@@ -1145,13 +1137,17 @@ nav a:nth-of-type(6) {
 
     .list-link__display_none {
         display: none;
+    }  
+    
+    .main__gradient {
+        display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1019px) {
 
     .container {
-        margin: 0 20px;
+        width: 728px;
     }
 
     .nav__link {
@@ -1310,11 +1306,15 @@ nav a:nth-of-type(6) {
     .fourth-card__text {
         width: 100%;
     }
+
+    .main__gradient {
+        display: none;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 767px) {
     .container {
-        margin: 0 20px;
+        width: 374px;
     }
 
     .nav__link {
@@ -1522,11 +1522,15 @@ nav a:nth-of-type(6) {
     .big-photo-block__column {
         width: 100%;
     }
+
+    .main__gradient {
+        display: none;
+    }
 }
 
 @media (max-width: 399px) {
     .container {
-        margin: 0 15px;
+        width: 288px;
     }
 
     .nav__link {
@@ -1739,7 +1743,6 @@ nav a:nth-of-type(6) {
     }
 
     .info__author {
-        text-wrap: nowrap;
         margin-right: 10px;
     }
     
@@ -1761,5 +1764,9 @@ nav a:nth-of-type(6) {
 
     .section__header {
         font-size: 18px;
+    }
+
+    .main__gradient {
+        display: none;
     }
 }
